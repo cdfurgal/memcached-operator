@@ -1,0 +1,15 @@
+apiVersion: v1
+imagePullSecrets:
+- name: regcred
+- name: default-dockercfg-57gqt
+kind: ServiceAccount
+metadata:
+  creationTimestamp: "2021-06-29T14:20:55Z"
+  name: default
+  namespace: christina
+  resourceVersion: "659720181"
+  selfLink: /api/v1/namespaces/christina/serviceaccounts/default
+  uid: 2269c427-981d-4c65-a1b2-cc255e773659
+secrets:
+- name: default-dockercfg-57gqt
+- name: default-token-9fqxt
